@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    font-family: 'Poppins',sans-serif,monospace;
+    background: linear-gradient(120deg,#f6d365,#fda085);
+    min-height: 100vh;
+    color: #ffff;
+}
+
+header {
+    font-size: 2rem;
+    text-align: center;
+    padding: 3rem 0rem;
+}
+
+form {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 20vh;
+}
+
+form input  {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: 0;
+    border-radius: 25px;
+}
+
+form button {
+    cursor: pointer;
+    padding: 0.5rem;
+    font-size: 2rem;
+    background-color: teal;
+    color: white;
+    margin-left: 1rem;
+    border-radius: 15px;
+}
+
+.todo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem;
+}
+
+.todo li {
+    width: 300px; /* Replace 200px with your desired width */
+    display: inline-block; /* To display elements side by side */
+    background-color: grey;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+
+.todo button {
+    cursor: pointer;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: teal;
+    color: white;
+    margin-left: 1rem;
+    border-radius: 10px;
+}
