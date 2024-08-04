@@ -1,6 +1,7 @@
 const todoBtn = document.querySelector('.todo-btn');
 const todoInput = document.querySelector('.todo-input');
 const todoList = document.querySelector('.todo-list');
+const a = 232;
 
 const init = ()=>{
     let todoListArr;
