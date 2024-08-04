@@ -62,11 +62,31 @@ form button {
     border-radius: 10px;
 }
 
-.todo button {
+/* .todo button {
     cursor: pointer;
     padding: 0.5rem;
     font-size: 1rem;
     background-color: teal;
+    color: white;
+    margin-left: 1rem;
+    border-radius: 10px;
+} */
+
+.todo .check-btn {
+    cursor: pointer;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: white;
+    color: white;
+    margin-left: 1rem;
+    border-radius: 10px;
+}
+
+.trash-btn {
+    cursor: pointer;
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: red;
     color: white;
     margin-left: 1rem;
     border-radius: 10px;
